@@ -5,6 +5,7 @@ import Ref from './Component/Ref';
 import Portal from './Component/Portal';
 import HoverCounter from './Component/HoverCounter';
 import CickCounter from './Component/ClickCounter';
+import Context from './Component/Context1'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
      <Ref />
      <Portal />
      <CickCounter />
+     <Context />
     </div>
   );
 }
