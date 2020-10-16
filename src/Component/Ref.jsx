@@ -20,7 +20,7 @@ export default class Ref extends Component {
             <>
             <p>{this.state.name} </p>
                <input className="text" type="text" ref={this.inputRef} onChange= {this.onChangeHandler} />
-               <button onClick={ () => this.setState({ name: this.inputRef.current.onChange }) } >Submit</button> 
+               <button onClick={ () => this.setState({ name: this.inputRef.current.value }) } >Submit</button> 
             </>
         )
     }
