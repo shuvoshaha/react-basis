@@ -1,10 +1,10 @@
 import React from 'react';
 
 function Memo({name}){
-    console.log('this is memo')
+    console.log('this is memo Parent render')
     return(
         <>
-         {name} 
+         <p>Name: { name } </p>
         </>
     );
 }
